@@ -71,7 +71,7 @@ struct TagpageView: View {
                                 .padding(.leading, getRelativeWidth(12.0))
                                 Text(StringConstants.kLbl23H)
                                     .font(FontScheme
-                                        .kRobotoRomanExtraLight(size: getRelativeHeight(20.0)))
+                                        .kRobotoThin(size: getRelativeHeight(20.0)))
                                     .fontWeight(.ultraLight)
                                     .foregroundColor(ColorConstants.Black900)
                                     .minimumScaleFactor(0.5)

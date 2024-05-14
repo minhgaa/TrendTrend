@@ -212,7 +212,7 @@ struct BodymeasureView: View {
                     }
                 })
                 .position(x:getRelativeX(210),y:getRelativeY(50))
-                PageIndicator(numPages: 3, currentPage: .constant(1),
+                PageIndicator(numPages: 3, currentPage: .constant(2),
                               selectedColor: ColorConstants.Teal900,
                               unSelectedColor: ColorConstants.BlueGray100, spacing: 15.0)
             }

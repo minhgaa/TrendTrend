@@ -3,17 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2511FF28575093C3E091DD8B /* RobotoRomanLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81B0F62DD3C7407BFBE67D69 /* RobotoRomanLight.ttf */; };
-		4C821D499D7DD464DC522A39 /* Pods_trendtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADECC953CCF9529705165E8E /* Pods_trendtrend.framework */; };
 		592579F8C95FF30BA895A059 /* RobotoRomanRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC6844CB61BC35169F3214F5 /* RobotoRomanRegular.ttf */; };
-		88ED74EC272FFE6F0088E3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED74EB272FFE6F0088E3EF /* Assets.xcassets */; };
-		88ED74EF272FFE6F0088E3EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED74EE272FFE6F0088E3EF /* Preview Assets.xcassets */; };
 		AC8DF65039E5B17F0FD87092 /* RobotoRomanBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D260854D1769974527CD8384 /* RobotoRomanBold.ttf */; };
 		DA3A8A072BBB9939003FC375 /* PacificoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA3A8A062BBB9939003FC375 /* PacificoRegular.ttf */; };
+		DA44DD792BF3BAF2006D5F7F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DA44DD782BF3BAF2006D5F7F /* FirebaseAnalytics */; };
+		DA44DD7B2BF3BAF7006D5F7F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DA44DD7A2BF3BAF7006D5F7F /* FirebaseAuth */; };
 		DA5D205E2BC4C51E00C10563 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FD272FFECA0088E3EF /* APIManager.swift */; };
 		DA5D205F2BC4C52100C10563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */; };
 		DA5D20602BC4C52400C10563 /* trendtrendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FF272FFECA0088E3EF /* trendtrendApp.swift */; };
@@ -29,7 +28,6 @@
 		DA5D206A2BC4C54900C10563 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74F7272FFECA0088E3EF /* Utilities.swift */; };
 		DA5D206B2BC4C54D00C10563 /* ViewportHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88680D1B2775C601002E964F /* ViewportHelper.swift */; };
 		DA5D206C2BC4C55100C10563 /* ActivityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F44DBA027422A5D00171570 /* ActivityLoader.swift */; };
-		DA5D20742BC4C57C00C10563 /* GetstartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E7E9309C8406A2B7DAF89 /* GetstartedView.swift */; };
 		DA5D20752BC4C57C00C10563 /* GetstartedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E64CA83224565EA6C4E90B /* GetstartedViewModel.swift */; };
 		DA5D20762BC4C57C00C10563 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B4A2EE9B8194B3C9A1F67 /* LoginView.swift */; };
 		DA5D20772BC4C57C00C10563 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF90F3FA3EC1522181DD089 /* LoginViewModel.swift */; };
@@ -38,18 +36,42 @@
 		DA5D207A2BC4C57C00C10563 /* MainpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD01459F0771154CE5EBDD9 /* MainpageView.swift */; };
 		DA5D207B2BC4C57C00C10563 /* MainpageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB48165B7F97145B4F9C0AC /* MainpageViewModel.swift */; };
 		DA5D207C2BC4C57C00C10563 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE0E83195F96107CC0F9D7 /* PageIndicator.swift */; };
-		DA5D20842BC4C65C00C10563 /* PersonalpageView in Sources */ = {isa = PBXBuildFile; fileRef = DA851ECE2BC3958F00F2370A /* PersonalpageView */; };
-		DA5D20852BC4C65C00C10563 /* TagpageView in Sources */ = {isa = PBXBuildFile; fileRef = DA851ECF2BC3958F00F2370A /* TagpageView */; };
+		DA5D20862BC4CAC200C10563 /* GetstartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E7E9309C8406A2B7DAF89 /* GetstartedView.swift */; };
+		DA5D20892BC4CAF900C10563 /* TagpageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D20882BC4CAF900C10563 /* TagpageViewModel.swift */; };
+		DA5D208A2BC4CAF900C10563 /* TagpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D20872BC4CAF900C10563 /* TagpageView.swift */; };
+		DA5D208E2BC4CAFD00C10563 /* PersonalpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D208B2BC4CAFD00C10563 /* PersonalpageView.swift */; };
+		DA5D208F2BC4CAFD00C10563 /* PersonalpageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D208C2BC4CAFD00C10563 /* PersonalpageViewModel.swift */; };
+		DA5D20902BC4CAFD00C10563 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D208D2BC4CAFD00C10563 /* ImageCell.swift */; };
+		DA5D20D42BC839E900C10563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED74EB272FFE6F0088E3EF /* Assets.xcassets */; };
+		DA6C69AD2BF3B6FD00A19EF4 /* Pods_trendtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CFC82374367CC4E7B79C89 /* Pods_trendtrend.framework */; };
+		DA6C69AE2BF3B6FD00A19EF4 /* Pods_trendtrend.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69CFC82374367CC4E7B79C89 /* Pods_trendtrend.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA805B4C2BC84451008C23AA /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA805B4B2BC84451008C23AA /* Roboto-Thin.ttf */; };
+		DAFB741E2BF3A9A1000DEB57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFB741D2BF3A9A1000DEB57 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA6C69AF2BF3B6FD00A19EF4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DA6C69AE2BF3B6FD00A19EF4 /* Pods_trendtrend.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		040B6DC07B46414544B614D6 /* FontScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontScheme.swift; sourceTree = "<group>"; };
 		04690D122B6ECB9E1F4D24CF /* StringScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringScheme.swift; sourceTree = "<group>"; };
 		117B4A2EE9B8194B3C9A1F67 /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		27F3554A348D1AAF1E9820D2 /* Pods-trendtrend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.release.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.release.xcconfig"; sourceTree = "<group>"; };
 		469E7E9309C8406A2B7DAF89 /* GetstartedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetstartedView.swift; sourceTree = "<group>"; };
 		5AB48165B7F97145B4F9C0AC /* MainpageViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainpageViewModel.swift; sourceTree = "<group>"; };
+		69CFC82374367CC4E7B79C89 /* Pods_trendtrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trendtrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F44DBA027422A5D00171570 /* ActivityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoader.swift; sourceTree = "<group>"; };
+		7FF926E1C522847E348B8815 /* Pods-trendtrend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.release.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.release.xcconfig"; sourceTree = "<group>"; };
 		81B0F62DD3C7407BFBE67D69 /* RobotoRomanLight.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = RobotoRomanLight.ttf; sourceTree = "<group>"; };
 		884F3E5027B0E65A00963FC4 /* RoundedCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
 		8853052527718DC500B04E6F /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
@@ -67,16 +89,20 @@
 		88ED74FF272FFECA0088E3EF /* trendtrendApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trendtrendApp.swift; sourceTree = "<group>"; };
 		9A673FB4B1024D628778BA27 /* BodymeasureViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BodymeasureViewModel.swift; sourceTree = "<group>"; };
 		9CEE0E83195F96107CC0F9D7 /* PageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
-		ADECC953CCF9529705165E8E /* Pods_trendtrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trendtrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A72D4273DDA2783EC9F384 /* BodymeasureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BodymeasureView.swift; sourceTree = "<group>"; };
+		B87F7E15534A1C227156F067 /* Pods-trendtrend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.debug.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.debug.xcconfig"; sourceTree = "<group>"; };
 		C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD01459F0771154CE5EBDD9 /* MainpageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainpageView.swift; sourceTree = "<group>"; };
 		D260854D1769974527CD8384 /* RobotoRomanBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = RobotoRomanBold.ttf; sourceTree = "<group>"; };
 		DA3A8A062BBB9939003FC375 /* PacificoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PacificoRegular.ttf; sourceTree = "<group>"; };
-		DA851ECE2BC3958F00F2370A /* PersonalpageView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PersonalpageView; sourceTree = "<group>"; };
-		DA851ECF2BC3958F00F2370A /* TagpageView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TagpageView; sourceTree = "<group>"; };
+		DA5D20872BC4CAF900C10563 /* TagpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagpageView.swift; sourceTree = "<group>"; };
+		DA5D20882BC4CAF900C10563 /* TagpageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagpageViewModel.swift; sourceTree = "<group>"; };
+		DA5D208B2BC4CAFD00C10563 /* PersonalpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalpageView.swift; sourceTree = "<group>"; };
+		DA5D208C2BC4CAFD00C10563 /* PersonalpageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalpageViewModel.swift; sourceTree = "<group>"; };
+		DA5D208D2BC4CAFD00C10563 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		DA805B4B2BC84451008C23AA /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		DAF90F3FA3EC1522181DD089 /* LoginViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		DDD21F53A60AE50D36ACBAA2 /* Pods-trendtrend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.debug.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.debug.xcconfig"; sourceTree = "<group>"; };
+		DAFB741D2BF3A9A1000DEB57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E4E64CA83224565EA6C4E90B /* GetstartedViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetstartedViewModel.swift; sourceTree = "<group>"; };
 		EC6844CB61BC35169F3214F5 /* RobotoRomanRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = RobotoRomanRegular.ttf; sourceTree = "<group>"; };
 		F25A252D86D207F417995073 /* ColorConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
@@ -87,7 +113,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C821D499D7DD464DC522A39 /* Pods_trendtrend.framework in Frameworks */,
+				DA44DD792BF3BAF2006D5F7F /* FirebaseAnalytics in Frameworks */,
+				DA44DD7B2BF3BAF7006D5F7F /* FirebaseAuth in Frameworks */,
+				DA6C69AD2BF3B6FD00A19EF4 /* Pods_trendtrend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				DA3A8A062BBB9939003FC375 /* PacificoRegular.ttf */,
+				DA805B4B2BC84451008C23AA /* Roboto-Thin.ttf */,
 				D260854D1769974527CD8384 /* RobotoRomanBold.ttf */,
 				81B0F62DD3C7407BFBE67D69 /* RobotoRomanLight.ttf */,
 				EC6844CB61BC35169F3214F5 /* RobotoRomanRegular.ttf */,
@@ -145,7 +174,7 @@
 				88ED74E6272FFE6E0088E3EF /* trendtrend */,
 				88ED74E5272FFE6E0088E3EF /* Products */,
 				951B2135ABD80C10ED231AE3 /* Pods */,
-				FBC43041CA0C47E6D3B1E016 /* Frameworks */,
+				AFE0D89A5EF0272089CE97AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +189,7 @@
 		88ED74E6272FFE6E0088E3EF /* trendtrend */ = {
 			isa = PBXGroup;
 			children = (
+				DAFB741D2BF3A9A1000DEB57 /* GoogleService-Info.plist */,
 				88ED74FC272FFECA0088E3EF /* Services */,
 				88ED74FE272FFECA0088E3EF /* Application */,
 				88ED74F8272FFECA0088E3EF /* Constants */,
@@ -235,8 +265,8 @@
 		951B2135ABD80C10ED231AE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DDD21F53A60AE50D36ACBAA2 /* Pods-trendtrend.debug.xcconfig */,
-				27F3554A348D1AAF1E9820D2 /* Pods-trendtrend.release.xcconfig */,
+				B87F7E15534A1C227156F067 /* Pods-trendtrend.debug.xcconfig */,
+				7FF926E1C522847E348B8815 /* Pods-trendtrend.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -258,6 +288,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AFE0D89A5EF0272089CE97AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69CFC82374367CC4E7B79C89 /* Pods_trendtrend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6AE8B69567166F6EF32E215 /* BodymeasureView */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,14 +308,33 @@
 		D5A99E39F71FFC565E236281 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DA851ECE2BC3958F00F2370A /* PersonalpageView */,
-				DA851ECF2BC3958F00F2370A /* TagpageView */,
+				DA5D20922BC4CB7500C10563 /* TagView */,
+				DA5D20912BC4CB5000C10563 /* PersonalView */,
 				FCBB2D07AFDE69B72A440F22 /* GetstartedView */,
 				0240C1435BAC7C2CF36B8263 /* LoginView */,
 				B6AE8B69567166F6EF32E215 /* BodymeasureView */,
 				9FD470275EF4FEE114B1E77D /* MainpageView */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DA5D20912BC4CB5000C10563 /* PersonalView */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D208D2BC4CAFD00C10563 /* ImageCell.swift */,
+				DA5D208B2BC4CAFD00C10563 /* PersonalpageView.swift */,
+				DA5D208C2BC4CAFD00C10563 /* PersonalpageViewModel.swift */,
+			);
+			path = PersonalView;
+			sourceTree = "<group>";
+		};
+		DA5D20922BC4CB7500C10563 /* TagView */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D20872BC4CAF900C10563 /* TagpageView.swift */,
+				DA5D20882BC4CAF900C10563 /* TagpageViewModel.swift */,
+			);
+			path = TagView;
 			sourceTree = "<group>";
 		};
 		E0DD7BB69F9CE91897652254 /* CustomViews */ = {
@@ -296,14 +353,6 @@
 			path = PageIndicator;
 			sourceTree = "<group>";
 		};
-		FBC43041CA0C47E6D3B1E016 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ADECC953CCF9529705165E8E /* Pods_trendtrend.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FCBB2D07AFDE69B72A440F22 /* GetstartedView */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,17 +369,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88ED74F3272FFE6F0088E3EF /* Build configuration list for PBXNativeTarget "trendtrend" */;
 			buildPhases = (
-				4C6EC9AD657695B43EB45F4F /* [CP] Check Pods Manifest.lock */,
+				6F800564433D025F47F8EFC7 /* [CP] Check Pods Manifest.lock */,
 				88ED74E1272FFE6E0088E3EF /* Frameworks */,
 				88ED74E2272FFE6E0088E3EF /* Resources */,
-				599F3155213FDB5D6F96A352 /* [CP] Embed Pods Frameworks */,
 				DA5D205D2BC4C51400C10563 /* Sources */,
+				DB1FF1AEDFD7265BA9451D1B /* [CP] Embed Pods Frameworks */,
+				DA6C69AF2BF3B6FD00A19EF4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = trendtrend;
+			packageProductDependencies = (
+				DA44DD782BF3BAF2006D5F7F /* FirebaseAnalytics */,
+				DA44DD7A2BF3BAF7006D5F7F /* FirebaseAuth */,
+			);
 			productName = trendtrend;
 			productReference = 88ED74E4272FFE6E0088E3EF /* trendtrend.app */;
 			productType = "com.apple.product-type.application";
@@ -358,6 +412,9 @@
 				Base,
 			);
 			mainGroup = 88ED74DB272FFE6E0088E3EF;
+			packageReferences = (
+				DA44DD772BF3B999006D5F7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 88ED74E5272FFE6E0088E3EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -372,19 +429,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88ED74EF272FFE6F0088E3EF /* Preview Assets.xcassets in Resources */,
-				88ED74EC272FFE6F0088E3EF /* Assets.xcassets in Resources */,
+				DA5D20D42BC839E900C10563 /* Assets.xcassets in Resources */,
 				AC8DF65039E5B17F0FD87092 /* RobotoRomanBold.ttf in Resources */,
+				DA805B4C2BC84451008C23AA /* Roboto-Thin.ttf in Resources */,
 				DA3A8A072BBB9939003FC375 /* PacificoRegular.ttf in Resources */,
 				2511FF28575093C3E091DD8B /* RobotoRomanLight.ttf in Resources */,
 				592579F8C95FF30BA895A059 /* RobotoRomanRegular.ttf in Resources */,
+				DAFB741E2BF3A9A1000DEB57 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4C6EC9AD657695B43EB45F4F /* [CP] Check Pods Manifest.lock */ = {
+		6F800564433D025F47F8EFC7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,7 +464,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		599F3155213FDB5D6F96A352 /* [CP] Embed Pods Frameworks */ = {
+		DB1FF1AEDFD7265BA9451D1B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,29 +488,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5D20842BC4C65C00C10563 /* PersonalpageView in Sources */,
-				DA5D20852BC4C65C00C10563 /* TagpageView in Sources */,
-				DA5D20742BC4C57C00C10563 /* GetstartedView.swift in Sources */,
 				DA5D20752BC4C57C00C10563 /* GetstartedViewModel.swift in Sources */,
 				DA5D20762BC4C57C00C10563 /* LoginView.swift in Sources */,
 				DA5D20772BC4C57C00C10563 /* LoginViewModel.swift in Sources */,
 				DA5D20782BC4C57C00C10563 /* BodymeasureView.swift in Sources */,
 				DA5D20792BC4C57C00C10563 /* BodymeasureViewModel.swift in Sources */,
+				DA5D20862BC4CAC200C10563 /* GetstartedView.swift in Sources */,
 				DA5D207A2BC4C57C00C10563 /* MainpageView.swift in Sources */,
 				DA5D207B2BC4C57C00C10563 /* MainpageViewModel.swift in Sources */,
 				DA5D207C2BC4C57C00C10563 /* PageIndicator.swift in Sources */,
 				DA5D206C2BC4C55100C10563 /* ActivityLoader.swift in Sources */,
+				DA5D20892BC4CAF900C10563 /* TagpageViewModel.swift in Sources */,
 				DA5D206B2BC4C54D00C10563 /* ViewportHelper.swift in Sources */,
 				DA5D206A2BC4C54900C10563 /* Utilities.swift in Sources */,
+				DA5D20902BC4CAFD00C10563 /* ImageCell.swift in Sources */,
 				DA5D20692BC4C54500C10563 /* RoundedCornersView.swift in Sources */,
+				DA5D208E2BC4CAFD00C10563 /* PersonalpageView.swift in Sources */,
 				DA5D20682BC4C54200C10563 /* EncodableExtension.swift in Sources */,
 				DA5D20672BC4C53E00C10563 /* UINavigationController.swift in Sources */,
+				DA5D208F2BC4CAFD00C10563 /* PersonalpageViewModel.swift in Sources */,
 				DA5D20662BC4C53A00C10563 /* ViewExtension.swift in Sources */,
 				DA5D20652BC4C53700C10563 /* APIExtensions.swift in Sources */,
 				DA5D20642BC4C53300C10563 /* FontScheme.swift in Sources */,
 				DA5D20632BC4C52F00C10563 /* ColorConstants.swift in Sources */,
 				DA5D20622BC4C52B00C10563 /* StringScheme.swift in Sources */,
 				DA5D20612BC4C52800C10563 /* AppConstants.swift in Sources */,
+				DA5D208A2BC4CAF900C10563 /* TagpageView.swift in Sources */,
 				DA5D20602BC4C52400C10563 /* trendtrendApp.swift in Sources */,
 				DA5D205F2BC4C52100C10563 /* AppDelegate.swift in Sources */,
 				DA5D205E2BC4C51E00C10563 /* APIManager.swift in Sources */,
@@ -580,13 +641,13 @@
 		};
 		88ED74F4272FFE6F0088E3EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDD21F53A60AE50D36ACBAA2 /* Pods-trendtrend.debug.xcconfig */;
+			baseConfigurationReference = B87F7E15534A1C227156F067 /* Pods-trendtrend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"trendtrend/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JB8Z9HTB6G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = trendtrend/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -603,13 +664,13 @@
 		};
 		88ED74F5272FFE6F0088E3EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27F3554A348D1AAF1E9820D2 /* Pods-trendtrend.release.xcconfig */;
+			baseConfigurationReference = 7FF926E1C522847E348B8815 /* Pods-trendtrend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"trendtrend/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JB8Z9HTB6G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = trendtrend/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -646,6 +707,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA44DD772BF3B999006D5F7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA44DD782BF3BAF2006D5F7F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA44DD772BF3B999006D5F7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DA44DD7A2BF3BAF7006D5F7F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA44DD772BF3B999006D5F7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88ED74DC272FFE6E0088E3EF /* Project object */;
 }

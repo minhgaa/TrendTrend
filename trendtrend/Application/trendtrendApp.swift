@@ -3,6 +3,7 @@
 //  trendtrend
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct trendtrendApp: App {
@@ -10,7 +11,7 @@ struct trendtrendApp: App {
 
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            GetstartedView()
         }
     }
 }

@@ -14,10 +14,10 @@ class FontScheme: NSObject {
         return Font.custom(FontConstant.kRobotoRomanLight, size: size)
     }
 
-    static func kRobotoRomanExtraLight(size: CGFloat) -> Font {
-        return Font.custom(FontConstant.kRobotoRomanExtraLight, size: size)
+    static func kRobotoThin(size: CGFloat) -> Font {
+        return Font.custom(FontConstant.kRobotoThin, size: size)
     }
-
+    
     static func kPacificoRegular(size: CGFloat) -> Font {
         return Font.custom(FontConstant.kPacificoRegular, size: size)
     }
@@ -32,8 +32,8 @@ class FontScheme: NSObject {
             result = self.kRobotoRomanBold(size: size)
         case "kRobotoRomanLight":
             result = self.kRobotoRomanLight(size: size)
-        case "kRobotoRomanExtraLight":
-            result = self.kRobotoRomanExtraLight(size: size)
+        case "kRobotoThin":
+            result = self.kRobotoThin(size: size)
         case "kPacificoRegular":
             result = self.kPacificoRegular(size: size)
         default:
@@ -58,7 +58,7 @@ class FontScheme: NSObject {
         /**
          * Please Add this fonts Manually
          */
-        static let kRobotoRomanExtraLight: String = "RobotoRoman-ExtraLight"
+        static let kRobotoThin: String = "Roboto-Thin"
         /**
          * Please Add this fonts Manually
          */
