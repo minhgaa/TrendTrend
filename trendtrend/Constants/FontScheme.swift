@@ -2,16 +2,16 @@ import Foundation
 import SwiftUI
 
 class FontScheme: NSObject {
-    static func kRobotoRomanRegular(size: CGFloat) -> Font {
-        return Font.custom(FontConstant.kRobotoRomanRegular, size: size)
+    static func kRobotoRegular(size: CGFloat) -> Font {
+        return Font.custom(FontConstant.kRobotoRegular, size: size)
     }
 
-    static func kRobotoRomanBold(size: CGFloat) -> Font {
-        return Font.custom(FontConstant.kRobotoRomanBold, size: size)
+    static func kRobotoBold(size: CGFloat) -> Font {
+        return Font.custom(FontConstant.kRobotoBold, size: size)
     }
 
-    static func kRobotoRomanLight(size: CGFloat) -> Font {
-        return Font.custom(FontConstant.kRobotoRomanLight, size: size)
+    static func kRobotoLight(size: CGFloat) -> Font {
+        return Font.custom(FontConstant.kRobotoLight, size: size)
     }
 
     static func kRobotoThin(size: CGFloat) -> Font {
@@ -26,18 +26,18 @@ class FontScheme: NSObject {
         var result = Font.system(size: size)
 
         switch fontName {
-        case "kRobotoRomanRegular":
-            result = self.kRobotoRomanRegular(size: size)
-        case "kRobotoRomanBold":
-            result = self.kRobotoRomanBold(size: size)
-        case "kRobotoRomanLight":
-            result = self.kRobotoRomanLight(size: size)
+        case "kRobotoRegular":
+            result = self.kRobotoRegular(size: size)
+        case "kRobotoBold":
+            result = self.kRobotoBold(size: size)
+        case "kRobotoLight":
+            result = self.kRobotoLight(size: size)
         case "kRobotoThin":
             result = self.kRobotoThin(size: size)
         case "kPacificoRegular":
             result = self.kPacificoRegular(size: size)
         default:
-            result = self.kRobotoRomanRegular(size: size)
+            result = self.kRobotoRegular(size: size)
         }
         return result
     }
@@ -46,15 +46,15 @@ class FontScheme: NSObject {
         /**
          * Please Add this fonts Manually
          */
-        static let kRobotoRomanRegular: String = "RobotoRoman-Regular"
+        static let kRobotoRegular: String = "Roboto-Regular"
         /**
          * Please Add this fonts Manually
          */
-        static let kRobotoRomanBold: String = "RobotoRoman-Bold"
+        static let kRobotoBold: String = "Roboto-Bold"
         /**
          * Please Add this fonts Manually
          */
-        static let kRobotoRomanLight: String = "RobotoRoman-Light"
+        static let kRobotoLight: String = "Roboto-Light"
         /**
          * Please Add this fonts Manually
          */

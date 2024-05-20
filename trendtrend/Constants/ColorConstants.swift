@@ -5,4 +5,5 @@ struct ColorConstants {
     static let Black900: Color = .init("Black900")
     static let Teal900: Color = .init("Teal900")
     static let WhiteA700: Color = .init("WhiteA700")
+    static let Teal1000: Color = .init("Teal1000")
 }

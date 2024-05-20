@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2511FF28575093C3E091DD8B /* RobotoRomanLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81B0F62DD3C7407BFBE67D69 /* RobotoRomanLight.ttf */; };
-		592579F8C95FF30BA895A059 /* RobotoRomanRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC6844CB61BC35169F3214F5 /* RobotoRomanRegular.ttf */; };
-		AC8DF65039E5B17F0FD87092 /* RobotoRomanBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D260854D1769974527CD8384 /* RobotoRomanBold.ttf */; };
 		DA3A8A072BBB9939003FC375 /* PacificoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA3A8A062BBB9939003FC375 /* PacificoRegular.ttf */; };
-		DA44DD792BF3BAF2006D5F7F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DA44DD782BF3BAF2006D5F7F /* FirebaseAnalytics */; };
-		DA44DD7B2BF3BAF7006D5F7F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DA44DD7A2BF3BAF7006D5F7F /* FirebaseAuth */; };
 		DA5D205E2BC4C51E00C10563 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FD272FFECA0088E3EF /* APIManager.swift */; };
 		DA5D205F2BC4C52100C10563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */; };
 		DA5D20602BC4C52400C10563 /* trendtrendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FF272FFECA0088E3EF /* trendtrendApp.swift */; };
@@ -29,8 +24,6 @@
 		DA5D206B2BC4C54D00C10563 /* ViewportHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88680D1B2775C601002E964F /* ViewportHelper.swift */; };
 		DA5D206C2BC4C55100C10563 /* ActivityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F44DBA027422A5D00171570 /* ActivityLoader.swift */; };
 		DA5D20752BC4C57C00C10563 /* GetstartedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E64CA83224565EA6C4E90B /* GetstartedViewModel.swift */; };
-		DA5D20762BC4C57C00C10563 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B4A2EE9B8194B3C9A1F67 /* LoginView.swift */; };
-		DA5D20772BC4C57C00C10563 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF90F3FA3EC1522181DD089 /* LoginViewModel.swift */; };
 		DA5D20782BC4C57C00C10563 /* BodymeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A72D4273DDA2783EC9F384 /* BodymeasureView.swift */; };
 		DA5D20792BC4C57C00C10563 /* BodymeasureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A673FB4B1024D628778BA27 /* BodymeasureViewModel.swift */; };
 		DA5D207A2BC4C57C00C10563 /* MainpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD01459F0771154CE5EBDD9 /* MainpageView.swift */; };
@@ -43,10 +36,17 @@
 		DA5D208F2BC4CAFD00C10563 /* PersonalpageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D208C2BC4CAFD00C10563 /* PersonalpageViewModel.swift */; };
 		DA5D20902BC4CAFD00C10563 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D208D2BC4CAFD00C10563 /* ImageCell.swift */; };
 		DA5D20D42BC839E900C10563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED74EB272FFE6F0088E3EF /* Assets.xcassets */; };
-		DA6C69AD2BF3B6FD00A19EF4 /* Pods_trendtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CFC82374367CC4E7B79C89 /* Pods_trendtrend.framework */; };
-		DA6C69AE2BF3B6FD00A19EF4 /* Pods_trendtrend.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69CFC82374367CC4E7B79C89 /* Pods_trendtrend.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DA805B4C2BC84451008C23AA /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA805B4B2BC84451008C23AA /* Roboto-Thin.ttf */; };
-		DAFB741E2BF3A9A1000DEB57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFB741D2BF3A9A1000DEB57 /* GoogleService-Info.plist */; };
+		DAA3BEB22BF9952300A59E0D /* Pods_trendtrend.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAA3BE8D2BF9952300A59E0D /* Pods_trendtrend.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DAA3BEBA2BF9991500A59E0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA3BEB92BF9991500A59E0D /* GoogleService-Info.plist */; };
+		DAA3BEBF2BF999ED00A59E0D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEBD2BF999ED00A59E0D /* LoginViewModel.swift */; };
+		DAA3BEC02BF999ED00A59E0D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEBE2BF999ED00A59E0D /* LoginView.swift */; };
+		DAA3BECA2BF99DF700A59E0D /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEC82BF99DF700A59E0D /* SignupViewModel.swift */; };
+		DAA3BECB2BF99DF700A59E0D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEC92BF99DF700A59E0D /* SignupView.swift */; };
+		DAA3BED02BFA40DA00A59E0D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAA3BECE2BFA40DA00A59E0D /* Roboto-Bold.ttf */; };
+		DAA3BED32BFA40E500A59E0D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAA3BED22BFA40E500A59E0D /* Roboto-Regular.ttf */; };
+		DAA3BED52BFA410300A59E0D /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAA3BED42BFA410300A59E0D /* Roboto-Light.ttf */; };
+		F245B6A97797DAE6D57027EB /* Pods_trendtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D8E70006AC92ABE8BBAF4E /* Pods_trendtrend.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,7 +56,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DA6C69AE2BF3B6FD00A19EF4 /* Pods_trendtrend.framework in Embed Frameworks */,
+				DAA3BEB22BF9952300A59E0D /* Pods_trendtrend.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,13 +66,11 @@
 /* Begin PBXFileReference section */
 		040B6DC07B46414544B614D6 /* FontScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontScheme.swift; sourceTree = "<group>"; };
 		04690D122B6ECB9E1F4D24CF /* StringScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringScheme.swift; sourceTree = "<group>"; };
-		117B4A2EE9B8194B3C9A1F67 /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		25D8E70006AC92ABE8BBAF4E /* Pods_trendtrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trendtrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40779013F83F8495FAA85BDC /* Pods-trendtrend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.debug.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.debug.xcconfig"; sourceTree = "<group>"; };
 		469E7E9309C8406A2B7DAF89 /* GetstartedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetstartedView.swift; sourceTree = "<group>"; };
 		5AB48165B7F97145B4F9C0AC /* MainpageViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainpageViewModel.swift; sourceTree = "<group>"; };
-		69CFC82374367CC4E7B79C89 /* Pods_trendtrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trendtrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F44DBA027422A5D00171570 /* ActivityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoader.swift; sourceTree = "<group>"; };
-		7FF926E1C522847E348B8815 /* Pods-trendtrend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.release.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.release.xcconfig"; sourceTree = "<group>"; };
-		81B0F62DD3C7407BFBE67D69 /* RobotoRomanLight.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = RobotoRomanLight.ttf; sourceTree = "<group>"; };
 		884F3E5027B0E65A00963FC4 /* RoundedCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
 		8853052527718DC500B04E6F /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		8853052927718E2D00B04E6F /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
@@ -90,21 +88,51 @@
 		9A673FB4B1024D628778BA27 /* BodymeasureViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BodymeasureViewModel.swift; sourceTree = "<group>"; };
 		9CEE0E83195F96107CC0F9D7 /* PageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 		B7A72D4273DDA2783EC9F384 /* BodymeasureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BodymeasureView.swift; sourceTree = "<group>"; };
-		B87F7E15534A1C227156F067 /* Pods-trendtrend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.debug.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.debug.xcconfig"; sourceTree = "<group>"; };
 		C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD01459F0771154CE5EBDD9 /* MainpageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainpageView.swift; sourceTree = "<group>"; };
-		D260854D1769974527CD8384 /* RobotoRomanBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = RobotoRomanBold.ttf; sourceTree = "<group>"; };
+		D8C0606AFD529D4A3182BA88 /* Pods-trendtrend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.release.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.release.xcconfig"; sourceTree = "<group>"; };
 		DA3A8A062BBB9939003FC375 /* PacificoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PacificoRegular.ttf; sourceTree = "<group>"; };
+		DA44DD7E2BF8DF72006D5F7F /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA44DD802BF8E096006D5F7F /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5D20872BC4CAF900C10563 /* TagpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagpageView.swift; sourceTree = "<group>"; };
 		DA5D20882BC4CAF900C10563 /* TagpageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagpageViewModel.swift; sourceTree = "<group>"; };
 		DA5D208B2BC4CAFD00C10563 /* PersonalpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalpageView.swift; sourceTree = "<group>"; };
 		DA5D208C2BC4CAFD00C10563 /* PersonalpageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalpageViewModel.swift; sourceTree = "<group>"; };
 		DA5D208D2BC4CAFD00C10563 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		DA805B4B2BC84451008C23AA /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		DAF90F3FA3EC1522181DD089 /* LoginViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		DAFB741D2BF3A9A1000DEB57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAA3BE792BF9952300A59E0D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE7A2BF9952300A59E0D /* Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE7B2BF9952300A59E0D /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		DAA3BE7C2BF9952300A59E0D /* FirebaseAppCheckInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheckInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE7D2BF9952300A59E0D /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE7E2BF9952300A59E0D /* FirebaseAuth_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FirebaseAuth_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE7F2BF9952300A59E0D /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE802BF9952300A59E0D /* FirebaseCore_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FirebaseCore_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE812BF9952300A59E0D /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE822BF9952300A59E0D /* FirebaseCoreInternal_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FirebaseCoreInternal_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE832BF9952300A59E0D /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE842BF9952300A59E0D /* FirebaseInstallations_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FirebaseInstallations_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE852BF9952300A59E0D /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		DAA3BE862BF9952300A59E0D /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurementIdentitySupport.xcframework; path = Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		DAA3BE872BF9952300A59E0D /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE882BF9952300A59E0D /* GoogleUtilities_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = GoogleUtilities_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE892BF9952300A59E0D /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE8A2BF9952300A59E0D /* GTMSessionFetcher_Core_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = GTMSessionFetcher_Core_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE8B2BF9952300A59E0D /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE8C2BF9952300A59E0D /* nanopb_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = nanopb_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE8D2BF9952300A59E0D /* Pods_trendtrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_trendtrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE8E2BF9952300A59E0D /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE8F2BF9952300A59E0D /* FBLPromises_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BE902BF9952300A59E0D /* RecaptchaInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RecaptchaInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA3BEB92BF9991500A59E0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAA3BEBD2BF999ED00A59E0D /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DAA3BEBE2BF999ED00A59E0D /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DAA3BEC82BF99DF700A59E0D /* SignupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		DAA3BEC92BF99DF700A59E0D /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		DAA3BECE2BFA40DA00A59E0D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		DAA3BED22BFA40E500A59E0D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		DAA3BED42BFA410300A59E0D /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		E4E64CA83224565EA6C4E90B /* GetstartedViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetstartedViewModel.swift; sourceTree = "<group>"; };
-		EC6844CB61BC35169F3214F5 /* RobotoRomanRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = RobotoRomanRegular.ttf; sourceTree = "<group>"; };
 		F25A252D86D207F417995073 /* ColorConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,9 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA44DD792BF3BAF2006D5F7F /* FirebaseAnalytics in Frameworks */,
-				DA44DD7B2BF3BAF7006D5F7F /* FirebaseAuth in Frameworks */,
-				DA6C69AD2BF3B6FD00A19EF4 /* Pods_trendtrend.framework in Frameworks */,
+				F245B6A97797DAE6D57027EB /* Pods_trendtrend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +151,8 @@
 		0240C1435BAC7C2CF36B8263 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
-				117B4A2EE9B8194B3C9A1F67 /* LoginView.swift */,
-				DAF90F3FA3EC1522181DD089 /* LoginViewModel.swift */,
+				DAA3BEBE2BF999ED00A59E0D /* LoginView.swift */,
+				DAA3BEBD2BF999ED00A59E0D /* LoginViewModel.swift */,
 			);
 			path = LoginView;
 			sourceTree = "<group>";
@@ -151,11 +177,11 @@
 		85D449955708852C5DEBCA70 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				DAA3BED22BFA40E500A59E0D /* Roboto-Regular.ttf */,
+				DAA3BED42BFA410300A59E0D /* Roboto-Light.ttf */,
+				DAA3BECE2BFA40DA00A59E0D /* Roboto-Bold.ttf */,
 				DA3A8A062BBB9939003FC375 /* PacificoRegular.ttf */,
 				DA805B4B2BC84451008C23AA /* Roboto-Thin.ttf */,
-				D260854D1769974527CD8384 /* RobotoRomanBold.ttf */,
-				81B0F62DD3C7407BFBE67D69 /* RobotoRomanLight.ttf */,
-				EC6844CB61BC35169F3214F5 /* RobotoRomanRegular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -189,7 +215,7 @@
 		88ED74E6272FFE6E0088E3EF /* trendtrend */ = {
 			isa = PBXGroup;
 			children = (
-				DAFB741D2BF3A9A1000DEB57 /* GoogleService-Info.plist */,
+				DAA3BEB92BF9991500A59E0D /* GoogleService-Info.plist */,
 				88ED74FC272FFECA0088E3EF /* Services */,
 				88ED74FE272FFECA0088E3EF /* Application */,
 				88ED74F8272FFECA0088E3EF /* Constants */,
@@ -265,8 +291,8 @@
 		951B2135ABD80C10ED231AE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B87F7E15534A1C227156F067 /* Pods-trendtrend.debug.xcconfig */,
-				7FF926E1C522847E348B8815 /* Pods-trendtrend.release.xcconfig */,
+				40779013F83F8495FAA85BDC /* Pods-trendtrend.debug.xcconfig */,
+				D8C0606AFD529D4A3182BA88 /* Pods-trendtrend.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -291,7 +317,33 @@
 		AFE0D89A5EF0272089CE97AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69CFC82374367CC4E7B79C89 /* Pods_trendtrend.framework */,
+				DAA3BE792BF9952300A59E0D /* Alamofire.framework */,
+				DAA3BE7A2BF9952300A59E0D /* Alamofire.bundle */,
+				DAA3BE7B2BF9952300A59E0D /* FirebaseAnalytics.xcframework */,
+				DAA3BE7C2BF9952300A59E0D /* FirebaseAppCheckInterop.framework */,
+				DAA3BE7D2BF9952300A59E0D /* FirebaseAuth.framework */,
+				DAA3BE7E2BF9952300A59E0D /* FirebaseAuth_Privacy.bundle */,
+				DAA3BE7F2BF9952300A59E0D /* FirebaseCore.framework */,
+				DAA3BE802BF9952300A59E0D /* FirebaseCore_Privacy.bundle */,
+				DAA3BE812BF9952300A59E0D /* FirebaseCoreInternal.framework */,
+				DAA3BE822BF9952300A59E0D /* FirebaseCoreInternal_Privacy.bundle */,
+				DAA3BE832BF9952300A59E0D /* FirebaseInstallations.framework */,
+				DAA3BE842BF9952300A59E0D /* FirebaseInstallations_Privacy.bundle */,
+				DAA3BE852BF9952300A59E0D /* GoogleAppMeasurement.xcframework */,
+				DAA3BE862BF9952300A59E0D /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				DAA3BE872BF9952300A59E0D /* GoogleUtilities.framework */,
+				DAA3BE882BF9952300A59E0D /* GoogleUtilities_Privacy.bundle */,
+				DAA3BE892BF9952300A59E0D /* GTMSessionFetcher.framework */,
+				DAA3BE8A2BF9952300A59E0D /* GTMSessionFetcher_Core_Privacy.bundle */,
+				DAA3BE8B2BF9952300A59E0D /* nanopb.framework */,
+				DAA3BE8C2BF9952300A59E0D /* nanopb_Privacy.bundle */,
+				DAA3BE8D2BF9952300A59E0D /* Pods_trendtrend.framework */,
+				DAA3BE8E2BF9952300A59E0D /* FBLPromises.framework */,
+				DAA3BE8F2BF9952300A59E0D /* FBLPromises_Privacy.bundle */,
+				DAA3BE902BF9952300A59E0D /* RecaptchaInterop.framework */,
+				DA44DD802BF8E096006D5F7F /* FirebaseAuth.framework */,
+				DA44DD7E2BF8DF72006D5F7F /* FirebaseAuth.framework */,
+				25D8E70006AC92ABE8BBAF4E /* Pods_trendtrend.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -308,6 +360,7 @@
 		D5A99E39F71FFC565E236281 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DAA3BECD2BF99E1100A59E0D /* SignupView */,
 				DA5D20922BC4CB7500C10563 /* TagView */,
 				DA5D20912BC4CB5000C10563 /* PersonalView */,
 				FCBB2D07AFDE69B72A440F22 /* GetstartedView */,
@@ -335,6 +388,15 @@
 				DA5D20882BC4CAF900C10563 /* TagpageViewModel.swift */,
 			);
 			path = TagView;
+			sourceTree = "<group>";
+		};
+		DAA3BECD2BF99E1100A59E0D /* SignupView */ = {
+			isa = PBXGroup;
+			children = (
+				DAA3BEC92BF99DF700A59E0D /* SignupView.swift */,
+				DAA3BEC82BF99DF700A59E0D /* SignupViewModel.swift */,
+			);
+			path = SignupView;
 			sourceTree = "<group>";
 		};
 		E0DD7BB69F9CE91897652254 /* CustomViews */ = {
@@ -369,22 +431,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88ED74F3272FFE6F0088E3EF /* Build configuration list for PBXNativeTarget "trendtrend" */;
 			buildPhases = (
-				6F800564433D025F47F8EFC7 /* [CP] Check Pods Manifest.lock */,
+				1C2A3A40DCD3C473A8FE378D /* [CP] Check Pods Manifest.lock */,
 				88ED74E1272FFE6E0088E3EF /* Frameworks */,
 				88ED74E2272FFE6E0088E3EF /* Resources */,
 				DA5D205D2BC4C51400C10563 /* Sources */,
-				DB1FF1AEDFD7265BA9451D1B /* [CP] Embed Pods Frameworks */,
 				DA6C69AF2BF3B6FD00A19EF4 /* Embed Frameworks */,
+				20BC40C2F93DD7729A011000 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = trendtrend;
-			packageProductDependencies = (
-				DA44DD782BF3BAF2006D5F7F /* FirebaseAnalytics */,
-				DA44DD7A2BF3BAF7006D5F7F /* FirebaseAuth */,
-			);
 			productName = trendtrend;
 			productReference = 88ED74E4272FFE6E0088E3EF /* trendtrend.app */;
 			productType = "com.apple.product-type.application";
@@ -430,19 +488,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5D20D42BC839E900C10563 /* Assets.xcassets in Resources */,
-				AC8DF65039E5B17F0FD87092 /* RobotoRomanBold.ttf in Resources */,
+				DAA3BED32BFA40E500A59E0D /* Roboto-Regular.ttf in Resources */,
 				DA805B4C2BC84451008C23AA /* Roboto-Thin.ttf in Resources */,
+				DAA3BED02BFA40DA00A59E0D /* Roboto-Bold.ttf in Resources */,
+				DAA3BEBA2BF9991500A59E0D /* GoogleService-Info.plist in Resources */,
+				DAA3BED52BFA410300A59E0D /* Roboto-Light.ttf in Resources */,
 				DA3A8A072BBB9939003FC375 /* PacificoRegular.ttf in Resources */,
-				2511FF28575093C3E091DD8B /* RobotoRomanLight.ttf in Resources */,
-				592579F8C95FF30BA895A059 /* RobotoRomanRegular.ttf in Resources */,
-				DAFB741E2BF3A9A1000DEB57 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6F800564433D025F47F8EFC7 /* [CP] Check Pods Manifest.lock */ = {
+		1C2A3A40DCD3C473A8FE378D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -464,7 +522,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB1FF1AEDFD7265BA9451D1B /* [CP] Embed Pods Frameworks */ = {
+		20BC40C2F93DD7729A011000 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -489,12 +547,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5D20752BC4C57C00C10563 /* GetstartedViewModel.swift in Sources */,
-				DA5D20762BC4C57C00C10563 /* LoginView.swift in Sources */,
-				DA5D20772BC4C57C00C10563 /* LoginViewModel.swift in Sources */,
+				DAA3BEC02BF999ED00A59E0D /* LoginView.swift in Sources */,
 				DA5D20782BC4C57C00C10563 /* BodymeasureView.swift in Sources */,
 				DA5D20792BC4C57C00C10563 /* BodymeasureViewModel.swift in Sources */,
 				DA5D20862BC4CAC200C10563 /* GetstartedView.swift in Sources */,
 				DA5D207A2BC4C57C00C10563 /* MainpageView.swift in Sources */,
+				DAA3BECA2BF99DF700A59E0D /* SignupViewModel.swift in Sources */,
 				DA5D207B2BC4C57C00C10563 /* MainpageViewModel.swift in Sources */,
 				DA5D207C2BC4C57C00C10563 /* PageIndicator.swift in Sources */,
 				DA5D206C2BC4C55100C10563 /* ActivityLoader.swift in Sources */,
@@ -510,8 +568,10 @@
 				DA5D20662BC4C53A00C10563 /* ViewExtension.swift in Sources */,
 				DA5D20652BC4C53700C10563 /* APIExtensions.swift in Sources */,
 				DA5D20642BC4C53300C10563 /* FontScheme.swift in Sources */,
+				DAA3BEBF2BF999ED00A59E0D /* LoginViewModel.swift in Sources */,
 				DA5D20632BC4C52F00C10563 /* ColorConstants.swift in Sources */,
 				DA5D20622BC4C52B00C10563 /* StringScheme.swift in Sources */,
+				DAA3BECB2BF99DF700A59E0D /* SignupView.swift in Sources */,
 				DA5D20612BC4C52800C10563 /* AppConstants.swift in Sources */,
 				DA5D208A2BC4CAF900C10563 /* TagpageView.swift in Sources */,
 				DA5D20602BC4C52400C10563 /* trendtrendApp.swift in Sources */,
@@ -641,7 +701,7 @@
 		};
 		88ED74F4272FFE6F0088E3EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B87F7E15534A1C227156F067 /* Pods-trendtrend.debug.xcconfig */;
+			baseConfigurationReference = 40779013F83F8495FAA85BDC /* Pods-trendtrend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -664,7 +724,7 @@
 		};
 		88ED74F5272FFE6F0088E3EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FF926E1C522847E348B8815 /* Pods-trendtrend.release.xcconfig */;
+			baseConfigurationReference = D8C0606AFD529D4A3182BA88 /* Pods-trendtrend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -718,19 +778,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DA44DD782BF3BAF2006D5F7F /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA44DD772BF3B999006D5F7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		DA44DD7A2BF3BAF7006D5F7F /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA44DD772BF3B999006D5F7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88ED74DC272FFE6E0088E3EF /* Project object */;
 }

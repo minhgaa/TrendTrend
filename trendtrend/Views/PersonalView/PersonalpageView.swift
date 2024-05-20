@@ -8,7 +8,7 @@ struct PersonalpageView: View {
             VStack {
                 VStack{
                     Text(StringConstants.kLblBlckman)
-                        .font(FontScheme.kRobotoRomanLight(size: getRelativeHeight(20.0)))
+                        .font(FontScheme.kRobotoLight(size: getRelativeHeight(20.0)))
                         .foregroundColor(ColorConstants.Black900)
                         .position(x:getRelativeX(265),y:getRelativeY(60))
                     Image("img_right_arrow_1")
@@ -35,7 +35,7 @@ struct PersonalpageView: View {
                             VStack {
                                 Text(StringConstants.kLblBlackman)
                                     .font(FontScheme
-                                        .kRobotoRomanRegular(size: getRelativeHeight(24.0)))
+                                        .kRobotoRegular(size: getRelativeHeight(24.0)))
                                     .fontWeight(.regular)
                                     .foregroundColor(ColorConstants.Black900)
                                     .minimumScaleFactor(0.5)
@@ -47,7 +47,7 @@ struct PersonalpageView: View {
                                     VStack {
                                         Text(StringConstants.kLbl206)
                                             .font(FontScheme
-                                                .kRobotoRomanRegular(size: getRelativeHeight(20.0)))
+                                                .kRobotoRegular(size: getRelativeHeight(20.0)))
                                             
                                             .foregroundColor(ColorConstants.Black900)
                                             .minimumScaleFactor(0.5)
@@ -71,7 +71,7 @@ struct PersonalpageView: View {
                                     VStack {
                                         Text(StringConstants.kLbl206k)
                                             .font(FontScheme
-                                                .kRobotoRomanRegular(size: getRelativeHeight(20.0)))
+                                                .kRobotoRegular(size: getRelativeHeight(20.0)))
                                             .fontWeight(.regular)
                                             .foregroundColor(ColorConstants.Black900)
                                             .minimumScaleFactor(0.5)
@@ -97,7 +97,7 @@ struct PersonalpageView: View {
                                     VStack {
                                         Text(StringConstants.kLbl206)
                                             .font(FontScheme
-                                                .kRobotoRomanRegular(size: getRelativeHeight(20.0)))
+                                                .kRobotoRegular(size: getRelativeHeight(20.0)))
                                             .fontWeight(.regular)
                                             .foregroundColor(ColorConstants.Black900)
                                             .minimumScaleFactor(0.5)
@@ -129,7 +129,7 @@ struct PersonalpageView: View {
                                     VStack {
                                         Text(StringConstants.kLbl180)
                                             .font(FontScheme
-                                                .kRobotoRomanRegular(size: getRelativeHeight(16.0)))
+                                                .kRobotoRegular(size: getRelativeHeight(16.0)))
                                             .fontWeight(.regular)
                                             .foregroundColor(ColorConstants.Teal900)
                                             .minimumScaleFactor(0.5)
@@ -150,7 +150,7 @@ struct PersonalpageView: View {
                                     VStack(alignment: .leading, spacing: 0) {
                                         Text(StringConstants.kLbl73)
                                             .font(FontScheme
-                                                .kRobotoRomanRegular(size: getRelativeHeight(16.0)))
+                                                .kRobotoRegular(size: getRelativeHeight(16.0)))
                                             .fontWeight(.regular)
                                             .foregroundColor(ColorConstants.Teal900)
                                             .minimumScaleFactor(0.5)
@@ -200,7 +200,7 @@ struct PersonalpageView: View {
                                 Button(action: {}, label: {
                                         Text(StringConstants.kLblFollow)
                                             .font(FontScheme
-                                                .kRobotoRomanRegular(size: getRelativeHeight(14.0)))
+                                                .kRobotoRegular(size: getRelativeHeight(14.0)))
                                             .padding(.horizontal, getRelativeWidth(30.0))
                                             .padding(.vertical, getRelativeHeight(9.0))
                                             .foregroundColor(ColorConstants.WhiteA700)

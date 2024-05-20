@@ -10,7 +10,7 @@ struct TagpageView: View {
                     VStack {
                         HStack {
                             Text(StringConstants.kLblNewFeed)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(24.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(24.0)))
                                 .fontWeight(.regular)
                                 .foregroundColor(ColorConstants.Teal900)
                                 .minimumScaleFactor(0.5)
@@ -46,7 +46,7 @@ struct TagpageView: View {
                                 VStack(alignment: .leading, spacing: 0) {
                                     Text(StringConstants.kLblBlackman)
                                         .font(FontScheme
-                                            .kRobotoRomanRegular(size: getRelativeHeight(20.0)))
+                                            .kRobotoRegular(size: getRelativeHeight(20.0)))
                                         .fontWeight(.regular)
                                         .foregroundColor(ColorConstants.Black900)
                                         .minimumScaleFactor(0.5)
@@ -56,7 +56,7 @@ struct TagpageView: View {
                                                alignment: .topLeading)
                                     Text(StringConstants.kLblBlckman)
                                         .font(FontScheme
-                                            .kRobotoRomanLight(size: getRelativeHeight(15.0)))
+                                            .kRobotoLight(size: getRelativeHeight(15.0)))
                                         .fontWeight(.light)
                                         .foregroundColor(ColorConstants.Black900)
                                         .minimumScaleFactor(0.5)
@@ -115,7 +115,7 @@ struct TagpageView: View {
                                         HStack(spacing: 0) {
                                             Text(StringConstants.kLblBoomberJacket)
                                                 .font(FontScheme
-                                                    .kRobotoRomanRegular(size: getRelativeHeight(10.0)))
+                                                    .kRobotoRegular(size: getRelativeHeight(10.0)))
                                                 .fontWeight(.regular)
                                                 .padding(.horizontal, getRelativeWidth(9.0))
                                                 .padding(.vertical, getRelativeHeight(15.0))
@@ -152,7 +152,7 @@ struct TagpageView: View {
                                         HStack(spacing: 0) {
                                             Text(StringConstants.kLblShirt)
                                                 .font(FontScheme
-                                                    .kRobotoRomanRegular(size: getRelativeHeight(10.0)))
+                                                    .kRobotoRegular(size: getRelativeHeight(10.0)))
                                                 .fontWeight(.regular)
                                                 .padding(.horizontal, getRelativeWidth(30.0))
                                                 .padding(.vertical, getRelativeHeight(15.0))
@@ -189,7 +189,7 @@ struct TagpageView: View {
                                         HStack(spacing: 0) {
                                             Text(StringConstants.kLblPant)
                                                 .font(FontScheme
-                                                    .kRobotoRomanRegular(size: getRelativeHeight(10.0)))
+                                                    .kRobotoRegular(size: getRelativeHeight(10.0)))
                                                 .fontWeight(.regular)
                                                 .padding(.horizontal, getRelativeWidth(30.0))
                                                 .padding(.vertical, getRelativeHeight(15.0))
@@ -226,7 +226,7 @@ struct TagpageView: View {
                                         HStack(spacing: 0) {
                                             Text(StringConstants.kLblShoes)
                                                 .font(FontScheme
-                                                    .kRobotoRomanRegular(size: getRelativeHeight(10.0)))
+                                                    .kRobotoRegular(size: getRelativeHeight(10.0)))
                                                 .fontWeight(.regular)
                                                 .padding(.horizontal, getRelativeWidth(30.0))
                                                 .padding(.vertical, getRelativeHeight(15.0))
@@ -304,7 +304,7 @@ struct TagpageView: View {
                                 .clipShape(Circle())
                                 .clipShape(Circle())
                             Text(StringConstants.kMsgLikedByMinhgaa)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(16.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(16.0)))
                                 .fontWeight(.regular)
                                 .foregroundColor(ColorConstants.Teal900)
                                 .minimumScaleFactor(0.5)

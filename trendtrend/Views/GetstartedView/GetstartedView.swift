@@ -1,5 +1,4 @@
 import SwiftUI
-
 struct GetstartedView: View {
     @StateObject var getstartedViewModel = GetstartedViewModel()
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
@@ -43,10 +42,10 @@ struct GetstartedView: View {
                         .position(x:getRelativeX(100),y:getRelativeY(45.0))
                         
                         .padding(.horizontal, getRelativeWidth(24.0))
-                        NavigationLink(destination: LoginView()){
+                        NavigationLink(destination: SignupView()){
                             HStack {
                                 Text(StringConstants.kLblGetStarted)
-                                    .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(40.0)))
+                                    .font(FontScheme.kRobotoRegular(size: getRelativeHeight(40.0)))
                                     .fontWeight(.regular)
                                     .foregroundColor(ColorConstants.Teal900)
                                     .minimumScaleFactor(0.5)
@@ -73,7 +72,7 @@ struct GetstartedView: View {
                             NavigationLink(destination: LoginView()){
                                 VStack {
                                     Text(StringConstants.kMsgExistingUserLog)
-                                        .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(24.0)))
+                                        .font(FontScheme.kRobotoRegular(size: getRelativeHeight(24.0)))
                                         .fontWeight(.regular)
                                         .foregroundColor(ColorConstants.Teal900)
                                         .minimumScaleFactor(0.5)

@@ -8,14 +8,14 @@ struct BodymeasureView: View {
             VStack {
                 ZStack(alignment: .leading) {
                     Text(StringConstants.kLblBody)
-                        .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(96.0)))
+                        .font(FontScheme.kRobotoRegular(size: getRelativeHeight(96.0)))
                         .rotationEffect(Angle.degrees(90))
                         .foregroundColor(ColorConstants.Teal900)
                         .minimumScaleFactor(0.5)
                         .multilineTextAlignment(.leading)
                         .position(x:getRelativeX(40),y:getRelativeY(160))
                     Text(StringConstants.kLblMeasurements)
-                        .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(32.0)))
+                        .font(FontScheme.kRobotoRegular(size: getRelativeHeight(32.0)))
                         .rotationEffect(Angle.degrees(90))
                         .foregroundColor(ColorConstants.Teal900)
                         .minimumScaleFactor(0.5)
@@ -25,7 +25,7 @@ struct BodymeasureView: View {
                         HStack {
                             TextField(StringConstants.kLblSleeve,
                                       text: $bodymeasureViewModel.sleevevalueoneText)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(16.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(16.0)))
                                 .foregroundColor(ColorConstants.Teal900)
                                 .padding()
                         }
@@ -41,7 +41,7 @@ struct BodymeasureView: View {
                         HStack {
                             TextField(StringConstants.kLblChest,
                                       text: $bodymeasureViewModel.chestvalueoneText)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(16.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(16.0)))
                                 .foregroundColor(ColorConstants.Teal900)
                                 .padding()
                         }
@@ -58,7 +58,7 @@ struct BodymeasureView: View {
                         HStack {
                             TextField(StringConstants.kLblWaist,
                                       text: $bodymeasureViewModel.waistvalueoneText)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(16.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(16.0)))
                                 .foregroundColor(ColorConstants.Teal900)
                                 .padding()
                         }
@@ -75,7 +75,7 @@ struct BodymeasureView: View {
                         HStack {
                             TextField(StringConstants.kLblInseam,
                                       text: $bodymeasureViewModel.inseamvalueoneText)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(16.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(16.0)))
                                 .foregroundColor(ColorConstants.Teal900)
                                 .padding()
                         }
@@ -101,7 +101,7 @@ struct BodymeasureView: View {
                         HStack {
                             TextField(StringConstants.kLblHeight,
                                       text: $bodymeasureViewModel.heightvalueoneText)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(50.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(50.0)))
                                 .foregroundColor(ColorConstants.WhiteA700)
                                 .frame(width: getRelativeWidth(85.0),
                                        height: getRelativeHeight(101), alignment: .topLeading)
@@ -109,7 +109,7 @@ struct BodymeasureView: View {
                                 .rotationEffect(Angle.degrees(-40))
                     
                             Text(StringConstants.kLblKg)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(20.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(20.0)))
                                 .fontWeight(.regular)
                                 .foregroundColor(ColorConstants.WhiteA700)
                                 .minimumScaleFactor(0.5)
@@ -134,7 +134,7 @@ struct BodymeasureView: View {
                             .rotationEffect(Angle.degrees(-40))
                             .position(x:getRelativeX(-20), y:getRelativeY(30))
                             Text(StringConstants.kLblCm)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(20.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(20.0)))
                                 .fontWeight(.regular)
                                 .foregroundColor(ColorConstants.WhiteA700)
                                 .minimumScaleFactor(0.5)
@@ -147,7 +147,7 @@ struct BodymeasureView: View {
                                 .rotationEffect(Angle.degrees(-40))
                             TextField(StringConstants.kLblWeight,
                                       text: $bodymeasureViewModel.weightvalueoneText)
-                                .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(50.0)))
+                                .font(FontScheme.kRobotoRegular(size: getRelativeHeight(50.0)))
                                 .foregroundColor(ColorConstants.WhiteA700)
                                 .frame(width: getRelativeWidth(85.0),
                                        height: getRelativeHeight(101), alignment: .topLeading)
@@ -194,7 +194,7 @@ struct BodymeasureView: View {
                 Button(action: {}, label: {
                     HStack(spacing: 0) {
                         Text(StringConstants.kLblFinish)
-                            .font(FontScheme.kRobotoRomanRegular(size: getRelativeHeight(24.0)))
+                            .font(FontScheme.kRobotoRegular(size: getRelativeHeight(24.0)))
                             .fontWeight(.regular)
                             .padding(.horizontal, getRelativeWidth(30.0))
                             .padding(.vertical, getRelativeHeight(19.0))
