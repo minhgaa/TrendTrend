@@ -10,6 +10,7 @@ struct LoginView: View {
             MainpageView()
         } else {
             content
+                .navigationBarBackButtonHidden(true) 
         }
     }
     var content: some View {
@@ -28,15 +29,23 @@ struct LoginView: View {
                         .frame(width: UIScreen.main.bounds.width, height: getRelativeHeight(700.0))
                         .scaledToFit()
                         .zIndex(2)
-                    Text("LOG IN")
-                        .font(FontScheme.kRobotoBold(size: 50))
-                        .foregroundColor(ColorConstants.WhiteA700)
-                        .frame(width: getRelativeWidth(220), height: getRelativeHeight(220))
-                        .background(RoundedCorners(topLeft: 150.0, topRight: 150.0, bottomLeft: 150.0,
-                                                   bottomRight: 150.0)
-                            .fill(ColorConstants.Teal1000))
-                        .zIndex(3)
-                        .position(x:getRelativeX(280), y:getRelativeY(350))
+                    HStack {
+                        Image("img_logo")
+                            .resizable()
+                            .frame(width: getRelativeWidth(120), height: getRelativeHeight(120))
+                            .scaledToFit()
+                    }
+                    
+                    .frame(width: getRelativeWidth(220), height: getRelativeHeight(220))
+                    .background(RoundedCorners(topLeft: 150.0, topRight: 150.0, bottomLeft: 150.0,
+                                               bottomRight: 150.0)
+                        .fill(ColorConstants.WhiteA700))
+                    .overlay(RoundedCorners(topLeft: 150.0, topRight: 150.0, bottomLeft: 150.0,
+                                            bottomRight: 150.0)
+                        .stroke(ColorConstants.Teal1000,
+                                lineWidth: 1))
+                    .zIndex(3)
+                    .position(x:getRelativeX(280), y:getRelativeY(350))
                 }
                 .frame(alignment: .center)
                 
@@ -140,7 +149,6 @@ struct LoginView: View {
         .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         .background(ColorConstants.WhiteA700)
         .ignoresSafeArea()
-        .hideNavigationBar()
     }
     func login() {
         Auth.auth().signIn(withEmail: loginViewModel.emailText, password: loginViewModel.passwordText) { result, error in

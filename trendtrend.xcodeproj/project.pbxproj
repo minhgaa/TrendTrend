@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5349AD259251F76B391D71F1 /* Pods_trendtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA3BE8D2BF9952300A59E0D /* Pods_trendtrend.framework */; };
 		DA3A8A072BBB9939003FC375 /* PacificoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA3A8A062BBB9939003FC375 /* PacificoRegular.ttf */; };
 		DA5D205E2BC4C51E00C10563 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FD272FFECA0088E3EF /* APIManager.swift */; };
 		DA5D205F2BC4C52100C10563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */; };
@@ -37,7 +38,6 @@
 		DA5D20902BC4CAFD00C10563 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D208D2BC4CAFD00C10563 /* ImageCell.swift */; };
 		DA5D20D42BC839E900C10563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED74EB272FFE6F0088E3EF /* Assets.xcassets */; };
 		DA805B4C2BC84451008C23AA /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA805B4B2BC84451008C23AA /* Roboto-Thin.ttf */; };
-		DAA3BEB22BF9952300A59E0D /* Pods_trendtrend.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAA3BE8D2BF9952300A59E0D /* Pods_trendtrend.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DAA3BEBA2BF9991500A59E0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA3BEB92BF9991500A59E0D /* GoogleService-Info.plist */; };
 		DAA3BEBF2BF999ED00A59E0D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEBD2BF999ED00A59E0D /* LoginViewModel.swift */; };
 		DAA3BEC02BF999ED00A59E0D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEBE2BF999ED00A59E0D /* LoginView.swift */; };
@@ -46,22 +46,12 @@
 		DAA3BED02BFA40DA00A59E0D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAA3BECE2BFA40DA00A59E0D /* Roboto-Bold.ttf */; };
 		DAA3BED32BFA40E500A59E0D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAA3BED22BFA40E500A59E0D /* Roboto-Regular.ttf */; };
 		DAA3BED52BFA410300A59E0D /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAA3BED42BFA410300A59E0D /* Roboto-Light.ttf */; };
+		DAA3BED72BFDECB400A59E0D /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BED62BFDECB400A59E0D /* CreatePostView.swift */; };
+		DAA3BED92BFDECCF00A59E0D /* CreatePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BED82BFDECCF00A59E0D /* CreatePostViewModel.swift */; };
+		DAA3BEDD2BFE45F600A59E0D /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEDC2BFE45F600A59E0D /* PhotoPicker.swift */; };
+		DAA3BEE12BFF31A300A59E0D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEE02BFF31A300A59E0D /* UserModel.swift */; };
 		F245B6A97797DAE6D57027EB /* Pods_trendtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D8E70006AC92ABE8BBAF4E /* Pods_trendtrend.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DA6C69AF2BF3B6FD00A19EF4 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DAA3BEB22BF9952300A59E0D /* Pods_trendtrend.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		040B6DC07B46414544B614D6 /* FontScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontScheme.swift; sourceTree = "<group>"; };
@@ -132,6 +122,10 @@
 		DAA3BECE2BFA40DA00A59E0D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		DAA3BED22BFA40E500A59E0D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		DAA3BED42BFA410300A59E0D /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		DAA3BED62BFDECB400A59E0D /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		DAA3BED82BFDECCF00A59E0D /* CreatePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewModel.swift; sourceTree = "<group>"; };
+		DAA3BEDC2BFE45F600A59E0D /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		DAA3BEE02BFF31A300A59E0D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		E4E64CA83224565EA6C4E90B /* GetstartedViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetstartedViewModel.swift; sourceTree = "<group>"; };
 		F25A252D86D207F417995073 /* ColorConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F245B6A97797DAE6D57027EB /* Pods_trendtrend.framework in Frameworks */,
+				5349AD259251F76B391D71F1 /* Pods_trendtrend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +210,7 @@
 		88ED74E6272FFE6E0088E3EF /* trendtrend */ = {
 			isa = PBXGroup;
 			children = (
+				DAA3BEDF2BFF317700A59E0D /* Models */,
 				DAA3BEB92BF9991500A59E0D /* GoogleService-Info.plist */,
 				88ED74FC272FFECA0088E3EF /* Services */,
 				88ED74FE272FFECA0088E3EF /* Application */,
@@ -367,6 +363,7 @@
 				0240C1435BAC7C2CF36B8263 /* LoginView */,
 				B6AE8B69567166F6EF32E215 /* BodymeasureView */,
 				9FD470275EF4FEE114B1E77D /* MainpageView */,
+				DAA3BEDB2BFDECE000A59E0D /* CreatePost */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -397,6 +394,24 @@
 				DAA3BEC82BF99DF700A59E0D /* SignupViewModel.swift */,
 			);
 			path = SignupView;
+			sourceTree = "<group>";
+		};
+		DAA3BEDB2BFDECE000A59E0D /* CreatePost */ = {
+			isa = PBXGroup;
+			children = (
+				DAA3BED62BFDECB400A59E0D /* CreatePostView.swift */,
+				DAA3BED82BFDECCF00A59E0D /* CreatePostViewModel.swift */,
+				DAA3BEDC2BFE45F600A59E0D /* PhotoPicker.swift */,
+			);
+			path = CreatePost;
+			sourceTree = "<group>";
+		};
+		DAA3BEDF2BFF317700A59E0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DAA3BEE02BFF31A300A59E0D /* UserModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E0DD7BB69F9CE91897652254 /* CustomViews */ = {
@@ -435,7 +450,6 @@
 				88ED74E1272FFE6E0088E3EF /* Frameworks */,
 				88ED74E2272FFE6E0088E3EF /* Resources */,
 				DA5D205D2BC4C51400C10563 /* Sources */,
-				DA6C69AF2BF3B6FD00A19EF4 /* Embed Frameworks */,
 				20BC40C2F93DD7729A011000 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -550,13 +564,16 @@
 				DAA3BEC02BF999ED00A59E0D /* LoginView.swift in Sources */,
 				DA5D20782BC4C57C00C10563 /* BodymeasureView.swift in Sources */,
 				DA5D20792BC4C57C00C10563 /* BodymeasureViewModel.swift in Sources */,
+				DAA3BED72BFDECB400A59E0D /* CreatePostView.swift in Sources */,
 				DA5D20862BC4CAC200C10563 /* GetstartedView.swift in Sources */,
 				DA5D207A2BC4C57C00C10563 /* MainpageView.swift in Sources */,
 				DAA3BECA2BF99DF700A59E0D /* SignupViewModel.swift in Sources */,
+				DAA3BEE12BFF31A300A59E0D /* UserModel.swift in Sources */,
 				DA5D207B2BC4C57C00C10563 /* MainpageViewModel.swift in Sources */,
 				DA5D207C2BC4C57C00C10563 /* PageIndicator.swift in Sources */,
 				DA5D206C2BC4C55100C10563 /* ActivityLoader.swift in Sources */,
 				DA5D20892BC4CAF900C10563 /* TagpageViewModel.swift in Sources */,
+				DAA3BEDD2BFE45F600A59E0D /* PhotoPicker.swift in Sources */,
 				DA5D206B2BC4C54D00C10563 /* ViewportHelper.swift in Sources */,
 				DA5D206A2BC4C54900C10563 /* Utilities.swift in Sources */,
 				DA5D20902BC4CAFD00C10563 /* ImageCell.swift in Sources */,
@@ -574,6 +591,7 @@
 				DAA3BECB2BF99DF700A59E0D /* SignupView.swift in Sources */,
 				DA5D20612BC4C52800C10563 /* AppConstants.swift in Sources */,
 				DA5D208A2BC4CAF900C10563 /* TagpageView.swift in Sources */,
+				DAA3BED92BFDECCF00A59E0D /* CreatePostViewModel.swift in Sources */,
 				DA5D20602BC4C52400C10563 /* trendtrendApp.swift in Sources */,
 				DA5D205F2BC4C52100C10563 /* AppDelegate.swift in Sources */,
 				DA5D205E2BC4C51E00C10563 /* APIManager.swift in Sources */,

@@ -17,4 +17,6 @@ target 'trendtrend' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Core'
   pod 'Firebase/Installations'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
 end

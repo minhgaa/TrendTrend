@@ -132,10 +132,10 @@ struct MainpageView: View {
                                     .frame(width: getRelativeWidth(30.0),
                                            height: getRelativeWidth(30.0), alignment: .center)
                                     .scaledToFit()
-                                    .position(x:getRelativeX(-20),y:getRelativeY(15))
+                                    .position(x:getRelativeX(0),y:getRelativeY(15))
                                     .padding(.leading, getRelativeWidth(177.0))
                             }
-                            .position(x:getRelativeX(200),y:getRelativeY(15))
+                            .position(x:getRelativeX(180),y:getRelativeY(5))
                             .frame(width: getRelativeWidth(370.0), height: getRelativeHeight(30.0),
                                    alignment: .center)
                             .padding(.top, getRelativeHeight(29.0))
@@ -160,130 +160,98 @@ struct MainpageView: View {
                             }
                             .frame(width: getRelativeWidth(230.0), height: getRelativeHeight(21.0),
                                    alignment: .leading)
-                            .padding(.top, getRelativeHeight(24.0))
-                            .padding(.leading, getRelativeWidth(30.0))
-                            HStack {
-                                ZStack(alignment: .center) {
-                                    ZStack {
-                                        Image("img_search_3_1")
-                                            .resizable()
-                                            .frame(width: getRelativeWidth(30.0),
-                                                   height: getRelativeWidth(30.0), alignment: .center)
-                                            .scaledToFit()
-                                            .padding(.bottom, getRelativeHeight(32.0))
-                                            .padding(.horizontal, getRelativeWidth(25.0))
-                                    }
-                                    .hideNavigationBar()
-                                    .frame(width: getRelativeWidth(80.0),
-                                           height: getRelativeWidth(80.0), alignment: .center)
-                                    .background(RoundedCorners(topLeft: 20.0, topRight: 20.0,
-                                                               bottomLeft: 20.0, bottomRight: 20.0)
-                                        .fill(ColorConstants.WhiteA700))
-                                    .padding(.top, getRelativeHeight(62.0))
-                                    .padding(.leading, getRelativeWidth(116.0))
-                                    .padding(.trailing, getRelativeWidth(130.0))
-                                    ZStack(alignment: .topLeading) {
-                                        HStack {
-                                            Spacer()
-                                            Button(action: {}, label: {
-                                                Image("img_homepage_1") })
-                                            .frame(width: getRelativeWidth(30.0),
-                                                   height: getRelativeWidth(30.0),
-                                                   alignment: .center)
-                                            .scaledToFit()
-                                            .clipped()
-                                            .padding(.vertical, getRelativeHeight(1.0))
-                                            Button(action: {}, label: {
-                                                Image("img_search_4_1") })
-                                            .frame(width: getRelativeWidth(32.0),
-                                                   height: getRelativeWidth(32.0),
-                                                   alignment: .center)
-                                            .scaledToFit()
-                                            .clipped()
-                                            .padding(.vertical, getRelativeHeight(1.0))
-                                            .padding(.leading, getRelativeWidth(45.0))
-                                            Button(action: {}, label: {
-                                                Image("img_shopping_bag_2_1") })
-                                            .frame(width: getRelativeWidth(30.0),
-                                                   height: getRelativeWidth(30.0),
-                                                   alignment: .center)
-                                            .scaledToFit()
-                                            .position(x:getRelativeX(15),y:getRelativeY(70))
-                                            .padding(.bottom, getRelativeHeight(60.0))
-                                            .padding(.leading, getRelativeWidth(45.0))
-                                        }
-                                        .frame(width: getRelativeWidth(326.0),
-                                               height: getRelativeHeight(147.0), alignment: .center)
-                                        .position(x:getRelativeX(255),y:getRelativeY(40))
-                                        .background(RoundedCorners(topLeft: 20.0, topRight: 20.0,
-                                                                   bottomLeft: 20.0, bottomRight: 20.0)
-                                            .fill(ColorConstants.Teal900))
-                                        
-                                        .padding(.top, getRelativeHeight(5.0))
-                                        
-                                    }
-                                    .hideNavigationBar()
-                                    .frame(width: getRelativeWidth(326.0),
-                                           height: getRelativeHeight(172.0), alignment: .center)
-                                    
-                                    .padding(.top, getRelativeHeight(20.0))
-                                    ZStack {
-                                        Button(action: {}, label: {
-                                            Image("img_more_1")
-                                        })
+                            .padding(.top, getRelativeHeight(0.0))
+                            .padding(.leading, getRelativeWidth(15.0))
+                            
+                        }
+                        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                        .background(ColorConstants.WhiteA700)
+                        .position(x:getRelativeX(215),y:getRelativeY(440))
+                    }
+                    HStack {
+                        ZStack(alignment: .center) {
+                            ZStack() {
+                                HStack {
+                                    Spacer()
+                                    Button(action: {}, label: {
+                                        Image("img_homepage_1") })
+                                    .frame(width: getRelativeWidth(30.0),
+                                           height: getRelativeWidth(30.0),
+                                           alignment: .center)
+                                    .scaledToFit()
+                                    .clipped()
+                                    .padding(.vertical, getRelativeHeight(1.0))
+                                    Button(action: {}, label: {
+                                        Image("img_search_4_1") })
+                                    .frame(width: getRelativeWidth(32.0),
+                                           height: getRelativeWidth(32.0),
+                                           alignment: .center)
+                                    .padding(.vertical, getRelativeHeight(1.0))
+                                    .padding(.leading, getRelativeWidth(45.0))
+                                    Button(action: {}, label: {
+                                        Image("img_shopping_bag_2_1") })
+                                    .frame(width: getRelativeWidth(30.0),
+                                           height: getRelativeWidth(30.0),
+                                           alignment: .center)
+                                    .position(x:getRelativeX(15),y:getRelativeY(70))
+                                    .padding(.bottom, getRelativeHeight(0.0))
+                                    .padding(.leading, getRelativeWidth(45.0))
+                                }
+                                .frame(width: getRelativeWidth(326.0),
+                                       height: getRelativeHeight(147.0), alignment: .center)
+                                .position(x:getRelativeX(180),y:getRelativeY(40))
+                                .background(RoundedCorners(topLeft: 20.0, topRight: 20.0,
+                                                           bottomLeft: 20.0, bottomRight: 20.0)
+                                    .fill(ColorConstants.Teal900))
+                                
+                                .padding(.top, getRelativeHeight(5.0))
+                                
+                            }
+                            .frame(width: getRelativeWidth(250.0),
+                                   height: getRelativeHeight(172.0), alignment: .center)
+                            
+                            .padding(.top, getRelativeHeight(20.0))
+                            .padding(.leading, getRelativeWidth(70))
+                            Button(action: {}) {
+                                NavigationLink(destination: CreatePostView()) {
+                                    Image("img_more_1")
                                         .frame(width: getRelativeWidth(50.0),
                                                height: getRelativeWidth(50.0), alignment: .center)
                                         .padding(.top, getRelativeHeight(28.0))
                                         .padding(.trailing, getRelativeWidth(15.0))
-                                        .position(x:getRelativeX(40),y:getRelativeY(36))
-                                    }
-                                    .hideNavigationBar()
-                                    .frame(width: getRelativeWidth(76.0),
-                                           height: getRelativeHeight(90.0), alignment: .topLeading)
-                                    .background(RoundedCorners(topLeft: 20.0, topRight: 20.0,
-                                                               bottomLeft: 20.0, bottomRight: 20.0)
-                                        .fill(ColorConstants.WhiteA700))
-                                    .padding(.bottom, getRelativeHeight(82.0))
-                                    .padding(.trailing, getRelativeWidth(250.0))
-                                    .position(x:getRelativeX(160),y:getRelativeY(85))
-                                }
-                                .hideNavigationBar()
-                                .frame(width: getRelativeWidth(326.0), height: getRelativeHeight(172.0),
-                                       alignment: .center)
-                                .position(x:getRelativeX(170),y:getRelativeY(70))
-                                Button(action: {}) {
-                                           NavigationLink(destination: PersonalpageView()){
-                                        Image("img_rectangle_16")
-                                            .resizable()
-                                            .frame(width: getRelativeWidth(70.0),
-                                                   height: getRelativeWidth(70.0), alignment: .center)
-                                            .scaledToFit()
-                                    }
-                                    .padding(.vertical, getRelativeHeight(39.0))
-                                    .padding(.leading, getRelativeWidth(16.0))
-                                    .position(x:getRelativeX(160),y:getRelativeY(40))
+                                        .position(x:getRelativeX(40),y:getRelativeY(47))
                                 }
                             }
-                            .frame(width: getRelativeWidth(412.0), height: getRelativeHeight(172.0),
-                                   alignment: .center)
-                            .padding(.top, getRelativeHeight(15.0))
-                            .padding(.trailing, getRelativeWidth(18.0))
                         }
-                        .frame(width: UIScreen.main.bounds.width, alignment: .topLeading)
+                        .hideNavigationBar()
+                        .frame(width: getRelativeWidth(326.0), height: getRelativeHeight(172.0),
+                               alignment: .center)
+                        .position(x:getRelativeX(170),y:getRelativeY(70))
+                        Button(action: {}) {
+                            NavigationLink(destination: PersonalpageView()){
+                                Image("img_rectangle_16")
+                                    .resizable()
+                                    .frame(width: getRelativeWidth(65.0),
+                                           height: getRelativeHeight(65.0))
+                            }
+                            .padding(.bottom,getRelativeHeight(90))
+                        }
                     }
+                    .frame(width: getRelativeWidth(412.0), height: getRelativeHeight(172.0),
+                           alignment: .center)
+                    .padding(.bottom,getRelativeHeight(-90))
+                    .padding(.leading,getRelativeWidth(-10))
                 }
                 .frame(width: UIScreen.main.bounds.width, alignment: .topLeading)
-                .background(ColorConstants.WhiteA700)
-                .padding(.top, getRelativeHeight(30.0))
-                .padding(.bottom, getRelativeHeight(10.0))
             }
             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
             .background(ColorConstants.WhiteA700)
             .ignoresSafeArea()
-            .hideNavigationBar()
         }
+        .navigationBarHidden(true)
     }
 }
+    
 struct MainpageView_Previews: PreviewProvider {
     static var previews: some View {
         MainpageView()

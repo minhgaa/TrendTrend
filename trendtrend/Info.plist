@@ -49,6 +49,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Ứng dụng này cần quyền truy cập thư viện ảnh để cho phép bạn chọn ảnh để tải lên.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Truy cập camera</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>PacificoRegular.ttf</string>

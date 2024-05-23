@@ -14,7 +14,7 @@ struct GetstartedView: View {
                     
                     VStack {
                         VStack {
-                            Image("img_screenshot_2024_03_20")
+                            Image("img_logo")
                                 .resizable()
                                 .frame(width: getRelativeWidth(46.0), height: getRelativeWidth(46.0),
                                        alignment: .center)
