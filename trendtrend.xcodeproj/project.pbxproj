@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5349AD259251F76B391D71F1 /* Pods_trendtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA3BE8D2BF9952300A59E0D /* Pods_trendtrend.framework */; };
 		DA3A8A072BBB9939003FC375 /* PacificoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA3A8A062BBB9939003FC375 /* PacificoRegular.ttf */; };
 		DA5D205E2BC4C51E00C10563 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FD272FFECA0088E3EF /* APIManager.swift */; };
 		DA5D205F2BC4C52100C10563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */; };
@@ -50,14 +49,16 @@
 		DAA3BED92BFDECCF00A59E0D /* CreatePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BED82BFDECCF00A59E0D /* CreatePostViewModel.swift */; };
 		DAA3BEDD2BFE45F600A59E0D /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEDC2BFE45F600A59E0D /* PhotoPicker.swift */; };
 		DAA3BEE12BFF31A300A59E0D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEE02BFF31A300A59E0D /* UserModel.swift */; };
-		F245B6A97797DAE6D57027EB /* Pods_trendtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D8E70006AC92ABE8BBAF4E /* Pods_trendtrend.framework */; };
+		DAA3BEE52BFF3C0300A59E0D /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3BEE42BFF3C0300A59E0D /* StorageService.swift */; };
+		DAD55A2E2C044CA500B3B28E /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = DAD55A2D2C044CA500B3B28E /* CropViewController */; };
+		DAD55A302C044CA500B3B28E /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = DAD55A2F2C044CA500B3B28E /* TOCropViewController */; };
+		F5E60549BF550F2A5EF1D72D /* Pods_trendtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317AC06C5D330E87A54B108A /* Pods_trendtrend.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040B6DC07B46414544B614D6 /* FontScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontScheme.swift; sourceTree = "<group>"; };
 		04690D122B6ECB9E1F4D24CF /* StringScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringScheme.swift; sourceTree = "<group>"; };
-		25D8E70006AC92ABE8BBAF4E /* Pods_trendtrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trendtrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40779013F83F8495FAA85BDC /* Pods-trendtrend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.debug.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.debug.xcconfig"; sourceTree = "<group>"; };
+		317AC06C5D330E87A54B108A /* Pods_trendtrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trendtrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		469E7E9309C8406A2B7DAF89 /* GetstartedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetstartedView.swift; sourceTree = "<group>"; };
 		5AB48165B7F97145B4F9C0AC /* MainpageViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainpageViewModel.swift; sourceTree = "<group>"; };
 		7F44DBA027422A5D00171570 /* ActivityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoader.swift; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		B7A72D4273DDA2783EC9F384 /* BodymeasureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BodymeasureView.swift; sourceTree = "<group>"; };
 		C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD01459F0771154CE5EBDD9 /* MainpageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainpageView.swift; sourceTree = "<group>"; };
-		D8C0606AFD529D4A3182BA88 /* Pods-trendtrend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.release.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.release.xcconfig"; sourceTree = "<group>"; };
 		DA3A8A062BBB9939003FC375 /* PacificoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PacificoRegular.ttf; sourceTree = "<group>"; };
 		DA44DD7E2BF8DF72006D5F7F /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA44DD802BF8E096006D5F7F /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,7 +110,6 @@
 		DAA3BE8A2BF9952300A59E0D /* GTMSessionFetcher_Core_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = GTMSessionFetcher_Core_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA3BE8B2BF9952300A59E0D /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA3BE8C2BF9952300A59E0D /* nanopb_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = nanopb_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAA3BE8D2BF9952300A59E0D /* Pods_trendtrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_trendtrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA3BE8E2BF9952300A59E0D /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA3BE8F2BF9952300A59E0D /* FBLPromises_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA3BE902BF9952300A59E0D /* RecaptchaInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RecaptchaInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,8 +125,11 @@
 		DAA3BED82BFDECCF00A59E0D /* CreatePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewModel.swift; sourceTree = "<group>"; };
 		DAA3BEDC2BFE45F600A59E0D /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		DAA3BEE02BFF31A300A59E0D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DAA3BEE42BFF3C0300A59E0D /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		E4E64CA83224565EA6C4E90B /* GetstartedViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetstartedViewModel.swift; sourceTree = "<group>"; };
+		F21E534AAF644A2BBDAE291C /* Pods-trendtrend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.release.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.release.xcconfig"; sourceTree = "<group>"; };
 		F25A252D86D207F417995073 /* ColorConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		FDB21E835067A96679F8CAE2 /* Pods-trendtrend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trendtrend.debug.xcconfig"; path = "Target Support Files/Pods-trendtrend/Pods-trendtrend.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +137,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F245B6A97797DAE6D57027EB /* Pods_trendtrend.framework in Frameworks */,
-				5349AD259251F76B391D71F1 /* Pods_trendtrend.framework in Frameworks */,
+				F5E60549BF550F2A5EF1D72D /* Pods_trendtrend.framework in Frameworks */,
+				DAD55A302C044CA500B3B28E /* TOCropViewController in Frameworks */,
+				DAD55A2E2C044CA500B3B28E /* CropViewController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				88ED74FD272FFECA0088E3EF /* APIManager.swift */,
+				DAA3BEE42BFF3C0300A59E0D /* StorageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -287,8 +291,8 @@
 		951B2135ABD80C10ED231AE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				40779013F83F8495FAA85BDC /* Pods-trendtrend.debug.xcconfig */,
-				D8C0606AFD529D4A3182BA88 /* Pods-trendtrend.release.xcconfig */,
+				FDB21E835067A96679F8CAE2 /* Pods-trendtrend.debug.xcconfig */,
+				F21E534AAF644A2BBDAE291C /* Pods-trendtrend.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -333,13 +337,12 @@
 				DAA3BE8A2BF9952300A59E0D /* GTMSessionFetcher_Core_Privacy.bundle */,
 				DAA3BE8B2BF9952300A59E0D /* nanopb.framework */,
 				DAA3BE8C2BF9952300A59E0D /* nanopb_Privacy.bundle */,
-				DAA3BE8D2BF9952300A59E0D /* Pods_trendtrend.framework */,
 				DAA3BE8E2BF9952300A59E0D /* FBLPromises.framework */,
 				DAA3BE8F2BF9952300A59E0D /* FBLPromises_Privacy.bundle */,
 				DAA3BE902BF9952300A59E0D /* RecaptchaInterop.framework */,
 				DA44DD802BF8E096006D5F7F /* FirebaseAuth.framework */,
 				DA44DD7E2BF8DF72006D5F7F /* FirebaseAuth.framework */,
-				25D8E70006AC92ABE8BBAF4E /* Pods_trendtrend.framework */,
+				317AC06C5D330E87A54B108A /* Pods_trendtrend.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -446,17 +449,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88ED74F3272FFE6F0088E3EF /* Build configuration list for PBXNativeTarget "trendtrend" */;
 			buildPhases = (
-				1C2A3A40DCD3C473A8FE378D /* [CP] Check Pods Manifest.lock */,
+				47729BF7080811ACB1501F9A /* [CP] Check Pods Manifest.lock */,
 				88ED74E1272FFE6E0088E3EF /* Frameworks */,
 				88ED74E2272FFE6E0088E3EF /* Resources */,
 				DA5D205D2BC4C51400C10563 /* Sources */,
-				20BC40C2F93DD7729A011000 /* [CP] Embed Pods Frameworks */,
+				007EDECC7E1A6BD880D28C11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = trendtrend;
+			packageProductDependencies = (
+				DAD55A2D2C044CA500B3B28E /* CropViewController */,
+				DAD55A2F2C044CA500B3B28E /* TOCropViewController */,
+			);
 			productName = trendtrend;
 			productReference = 88ED74E4272FFE6E0088E3EF /* trendtrend.app */;
 			productType = "com.apple.product-type.application";
@@ -486,6 +493,7 @@
 			mainGroup = 88ED74DB272FFE6E0088E3EF;
 			packageReferences = (
 				DA44DD772BF3B999006D5F7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DAD55A2C2C044CA500B3B28E /* XCRemoteSwiftPackageReference "TOCropViewController" */,
 			);
 			productRefGroup = 88ED74E5272FFE6E0088E3EF /* Products */;
 			projectDirPath = "";
@@ -514,7 +522,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C2A3A40DCD3C473A8FE378D /* [CP] Check Pods Manifest.lock */ = {
+		007EDECC7E1A6BD880D28C11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trendtrend/Pods-trendtrend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trendtrend/Pods-trendtrend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-trendtrend/Pods-trendtrend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47729BF7080811ACB1501F9A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -536,23 +561,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		20BC40C2F93DD7729A011000 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-trendtrend/Pods-trendtrend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-trendtrend/Pods-trendtrend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-trendtrend/Pods-trendtrend-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -562,6 +570,7 @@
 			files = (
 				DA5D20752BC4C57C00C10563 /* GetstartedViewModel.swift in Sources */,
 				DAA3BEC02BF999ED00A59E0D /* LoginView.swift in Sources */,
+				DAA3BEE52BFF3C0300A59E0D /* StorageService.swift in Sources */,
 				DA5D20782BC4C57C00C10563 /* BodymeasureView.swift in Sources */,
 				DA5D20792BC4C57C00C10563 /* BodymeasureViewModel.swift in Sources */,
 				DAA3BED72BFDECB400A59E0D /* CreatePostView.swift in Sources */,
@@ -719,16 +728,17 @@
 		};
 		88ED74F4272FFE6F0088E3EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40779013F83F8495FAA85BDC /* Pods-trendtrend.debug.xcconfig */;
+			baseConfigurationReference = FDB21E835067A96679F8CAE2 /* Pods-trendtrend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"trendtrend/Preview Content\"";
 				DEVELOPMENT_TEAM = JB8Z9HTB6G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = trendtrend/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -742,16 +752,17 @@
 		};
 		88ED74F5272FFE6F0088E3EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8C0606AFD529D4A3182BA88 /* Pods-trendtrend.release.xcconfig */;
+			baseConfigurationReference = F21E534AAF644A2BBDAE291C /* Pods-trendtrend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"trendtrend/Preview Content\"";
 				DEVELOPMENT_TEAM = JB8Z9HTB6G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = trendtrend/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -795,7 +806,28 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		DAD55A2C2C044CA500B3B28E /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAD55A2D2C044CA500B3B28E /* CropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAD55A2C2C044CA500B3B28E /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = CropViewController;
+		};
+		DAD55A2F2C044CA500B3B28E /* TOCropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAD55A2C2C044CA500B3B28E /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = TOCropViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88ED74DC272FFE6E0088E3EF /* Project object */;
 }

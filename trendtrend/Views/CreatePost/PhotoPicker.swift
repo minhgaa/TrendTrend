@@ -1,8 +1,9 @@
 import SwiftUI
 import UIKit
+import CropViewController
 
 struct ImagePicker: UIViewControllerRepresentable {
-    class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+    class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate, CropViewControllerDelegate {
         let parent: ImagePicker
 
         init(parent: ImagePicker) {
@@ -11,8 +12,19 @@ struct ImagePicker: UIViewControllerRepresentable {
 
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
             if let uiImage = info[.originalImage] as? UIImage {
-                parent.selectedImage = uiImage
+                // Present the CropViewController with the selected image
+                let cropViewController = CropViewController(image: uiImage)
+                cropViewController.delegate = self
+                picker.present(cropViewController, animated: true, completion: nil)
             }
+        }
+
+        func cropViewController(_ cropViewController: CropViewController, didCropToImage image: UIImage, withRect cropRect: CGRect, angle: Int) {
+            parent.selectedImage = image
+            parent.presentationMode.wrappedValue.dismiss()
+        }
+
+        func cropViewControllerDidCancel(_ cropViewController: CropViewController) {
             parent.presentationMode.wrappedValue.dismiss()
         }
 

@@ -1,5 +1,7 @@
 import SwiftUI
 import FirebaseAuth
+import Firebase
+var currentUsername: String?
 struct LoginView: View {
     @StateObject var loginViewModel = LoginViewModel()
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
@@ -152,14 +154,29 @@ struct LoginView: View {
     }
     func login() {
         Auth.auth().signIn(withEmail: loginViewModel.emailText, password: loginViewModel.passwordText) { result, error in
-            if error != nil {
+            if let error = error {
                 loginError = "Sai Email hoặc Mật khẩu!"
-                        } else {
-                            isLoggedIn = true
-                            loginError = nil
-                        }
+                print("Login error: \(error.localizedDescription)")
+            } else {
+                isLoggedIn = true
+                loginError = nil
+                guard let user = Auth.auth().currentUser else { return }
+                let db = Firestore.firestore()
+                
+                db.collection("users").document(user.uid).getDocument { document, error in
+                    if let error = error {
+                        print("Failed to fetch username: \(error.localizedDescription)")
+                    } else if let document = document, document.exists, let data = document.data() {
+                        currentUsername = data["username"] as? String
+                        print("Username fetched successfully: \(currentUsername ?? "")")
+                    } else {
+                        print("Document does not exist")
+                    }
+                }
+            }
         }
     }
+
 }
 
 struct LoginView_Previews: PreviewProvider {

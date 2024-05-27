@@ -11,12 +11,11 @@ post_install do |installer|
 
 target 'trendtrend' do
   use_frameworks!
+  
   pod 'Alamofire'
-  pod 'Firebase'
   pod 'Firebase/Auth'
-  pod 'Firebase/Analytics'
   pod 'Firebase/Core'
-  pod 'Firebase/Installations'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
-  pod 'Firebase/Database'
 end
